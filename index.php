@@ -30,6 +30,8 @@ $interval = $presentTime->diff($destinationTime);
     <div>
         <?php echo $interval->format("différence : " . " %Y ans %M mois %D jours et %H h %I minutes et %S" . " secondes"); ?>
     </div>
+
+
 </body>
 
 </html>
